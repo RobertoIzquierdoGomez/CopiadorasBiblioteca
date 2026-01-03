@@ -36,7 +36,6 @@ public class Alumno implements Runnable {
     public void run() {
         while(!Thread.currentThread().isInterrupted()){
             estudia();
-
             System.out.println("El alumno " + id + " va al centro de copias");
 
             try {
